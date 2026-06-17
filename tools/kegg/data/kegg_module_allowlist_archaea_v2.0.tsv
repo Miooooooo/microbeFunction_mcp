@@ -1,0 +1,67 @@
+module_id	module_name	tier	source_org_count	source_orgs
+M00001	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	A	4	loki,mfe,mja,ncon
+M00002	Glycolysis, core module involving three-carbon compounds	A	7	acj,ape,loki,mfe,mja,ncon,tac
+M00003	Gluconeogenesis, oxaloacetate => fructose-6P	A	4	acj,ape,nmr,tac
+M00005	PRPP biosynthesis, ribose-5P => PRPP	A	10	acj,agw,ape,barc,loki,mfe,mja,nir,nmr,tac
+M00007	Pentose phosphate pathway, non-oxidative phase, fructose-6P => ribose-5P	A	4	agw,mfe,mja,tac
+M00009	Citrate cycle (TCA cycle, Krebs cycle)	A	3	acj,ape,tac
+M00010	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	A	5	acj,ape,nir,nmr,tac
+M00011	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	A	3	acj,ape,tac
+M00018	Threonine biosynthesis, aspartate => homoserine => threonine	A	7	acj,ape,mfe,mja,nir,nmr,tac
+M00019	Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine	A	4	mfe,mja,nir,nmr
+M00021	Cysteine biosynthesis, serine => cysteine	A	1	loki
+M00022	Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate	A	3	acj,agw,ape
+M00023	Tryptophan biosynthesis, chorismate => tryptophan	A	7	acj,agw,ape,loki,mfe,mja,tac
+M00028	Ornithine biosynthesis, glutamate => ornithine	A	3	loki,mfe,mja
+M00031	Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine	A	4	acj,ape,nir,nmr
+M00033	Ectoine biosynthesis, aspartate => ectoine	A	2	nir,nmr
+M00035	Methionine degradation	A	2	acj,ape
+M00045	Histidine degradation, histidine => N-formiminoglutamate => glutamate	A	2	barc,tac
+M00048	De novo purine biosynthesis, PRPP + glutamine => IMP	A	1	tac
+M00049	Adenine ribonucleotide biosynthesis, IMP => ADP,ATP	A	6	agw,mfe,mja,nir,nmr,tac
+M00051	De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP	A	4	agw,mfe,mja,tac
+M00052	Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP	A	9	acj,agw,ape,mfe,mja,ncon,nir,nmr,tac
+M00086	beta-Oxidation, acyl-CoA synthesis	A	5	acj,ape,barc,loki,nmr
+M00118	Glutathione biosynthesis, glutamate => glutathione	A	1	loki
+M00123	Biotin biosynthesis, pimeloyl-ACP/CoA => biotin	A	1	mja
+M00133	Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine	A	3	mfe,mja,tac
+M00140	C1-unit interconversion, prokaryotes	A	2	agw,tac
+M00149	Succinate dehydrogenase, prokaryotes	A	5	acj,ape,nir,nmr,tac
+M00155	Cytochrome c oxidase, prokaryotes	A	2	acj,ape
+M00159	V/A-type ATPase, prokaryotes	A	6	agw,mfe,mja,ncon,nir,nmr
+M00176	Assimilatory sulfate reduction, sulfate => H2S	A	2	nir,nmr
+M00307	Pyruvate oxidation, pyruvate => acetyl-CoA	A	10	acj,agw,ape,barc,loki,marh,mfe,mja,ncon,tac
+M00309	Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate	A	1	tac
+M00338	Cysteine biosynthesis, homocysteine + serine => cysteine	A	2	acj,ape
+M00357	Methanogenesis, acetate => methane	A	1	mfe
+M00358	Coenzyme M biosynthesis	A	1	mfe
+M00365	C10-C20 isoprenoid biosynthesis, archaea	A	11	acj,agw,ape,barc,loki,marh,mfe,mja,nir,nmr,tac
+M00378	F420 biosynthesis, archaea	A	4	mfe,mja,nir,nmr
+M00422	Acetyl-CoA pathway, CO2 => acetyl-CoA	A	3	barc,mfe,mja
+M00432	Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate	A	5	loki,mfe,mja,nir,nmr
+M00527	Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine	A	2	mfe,mja
+M00535	Isoleucine biosynthesis, pyruvate => 2-oxobutanoate	A	2	mfe,mja
+M00567	Methanogenesis, CO2 => methane	A	1	mfe
+M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine	A	2	nir,nmr
+M00577	Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin	A	1	mja
+M00580	Pentose phosphate pathway, archaea, fructose-6P => ribose-5P	A	5	acj,ape,barc,mfe,mja
+M00608	2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate	A	2	mfe,mja
+M00620	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	A	2	mfe,mja
+M00621	Glycine cleavage system	A	4	acj,ape,loki,tac
+M00793	dTDP-L-Rha biosynthesis, Glc-1P => dTDP-L-Rha	A	2	ape,nir
+M00844	Arginine biosynthesis, ornithine => arginine	A	4	mfe,mja,nmr,tac
+M00849	C5 isoprenoid biosynthesis, mevalonate pathway, archaea	A	10	acj,ape,barc,loki,marh,mfe,mja,nir,nmr,tac
+M00880	Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor	A	6	acj,ape,loki,mfe,mja,tac
+M00896	Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP	A	4	mfe,mja,nir,nmr
+M00909	UDP-GlcNAc biosynthesis, prokaryotes, Fru-6P => UDP-GlcNAc	A	3	agw,mfe,mja
+M00916	Pyridoxal phosphate biosynthesis, R5P + glyceraldehyde-3P + glutamine => pyridoxal-P	A	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+M00924	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	A	2	mfe,mja
+M00935	Methanofuran biosynthesis	A	2	mfe,mja
+M00968	Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate	A	3	barc,mfe,mja
+M00970	Proline degradation, proline => glutamate	A	1	nir
+M00982	Methylcitrate cycle	A	2	acj,ape
+M00986	Sulfur reduction, sulfur => sulfide	A	1	tac
+M00999	UDP-GlcA/GalA biosynthesis, UDP-Glc => UDP-GlcA => UDP-GalA	A	1	mja
+M01000	GDP-Man biosynthesis, Fru-6P => GDP-Man	A	7	acj,agw,ape,barc,nir,nmr,tac
+M01014	UDP-ManNAcA biosynthesis, UDP-GlcNAc => UDP-ManNAcA	A	5	barc,loki,mfe,mja,oyw
+M01036	UDP-GalNAcA biosynthesis, UDP-GlcNAc => UDP-GalNAcA	A	1	war

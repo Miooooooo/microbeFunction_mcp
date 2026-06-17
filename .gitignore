@@ -1,0 +1,10 @@
+local.conf.toml
+.venv
+__pycache__/
+*.pyc
+*.pyo
+downloads/
+dist/logs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/

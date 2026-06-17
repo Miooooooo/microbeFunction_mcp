@@ -1,0 +1,568 @@
+{
+  "version": "2.0",
+  "method": "stratified per-phylum panel + KEGG link/module & list/pathway, split by domain",
+  "taxonomy_source": "br08601",
+  "bacteria_panel_count": 74,
+  "archaea_panel_count": 15,
+  "bacteria_panel": [
+    {
+      "code": "fvg",
+      "name": "Fannyhessea vaginae",
+      "phylum": "    Actinomycetota (1611)"
+    },
+    {
+      "code": "apv",
+      "name": "Lancefieldella parvula",
+      "phylum": "    Actinomycetota (1611)"
+    },
+    {
+      "code": "hin",
+      "name": "Haemophilus influenzae Rd KW20 (serotype d)",
+      "phylum": "    other Gammaproteobacteria (1538)"
+    },
+    {
+      "code": "hit",
+      "name": "Haemophilus influenzae 86-028NP (nontypeable)",
+      "phylum": "    other Gammaproteobacteria (1538)"
+    },
+    {
+      "code": "bsu",
+      "name": "Bacillus subtilis subsp. subtilis 168",
+      "phylum": "    Bacilli (1305)"
+    },
+    {
+      "code": "bsr",
+      "name": "Bacillus subtilis subsp. subtilis RO-NN-1",
+      "phylum": "    Bacilli (1305)"
+    },
+    {
+      "code": "rpr",
+      "name": "Rickettsia prowazekii Madrid E",
+      "phylum": "    Alphaproteobacteria (1266)"
+    },
+    {
+      "code": "rpo",
+      "name": "Rickettsia prowazekii BuV67-CWPP",
+      "phylum": "    Alphaproteobacteria (1266)"
+    },
+    {
+      "code": "bth",
+      "name": "Bacteroides thetaiotaomicron VPI-5482",
+      "phylum": "    Bacteroidota (730)"
+    },
+    {
+      "code": "btho",
+      "name": "Bacteroides thetaiotaomicron 7330",
+      "phylum": "    Bacteroidota (730)"
+    },
+    {
+      "code": "nme",
+      "name": "Neisseria meningitidis MC58 (serogroup B)",
+      "phylum": "    Betaproteobacteria (720)"
+    },
+    {
+      "code": "nmp",
+      "name": "Neisseria meningitidis alpha710 (serogroup B)",
+      "phylum": "    Betaproteobacteria (720)"
+    },
+    {
+      "code": "eco",
+      "name": "Escherichia coli K-12 MG1655",
+      "phylum": "    Enterobacteria (689)"
+    },
+    {
+      "code": "ecj",
+      "name": "Escherichia coli K-12 W3110",
+      "phylum": "    Enterobacteria (689)"
+    },
+    {
+      "code": "cac",
+      "name": "Clostridium acetobutylicum ATCC 824",
+      "phylum": "    Clostridia (394)"
+    },
+    {
+      "code": "cae",
+      "name": "Clostridium acetobutylicum DSM 1731",
+      "phylum": "    Clostridia (394)"
+    },
+    {
+      "code": "hpy",
+      "name": "Helicobacter pylori 26695",
+      "phylum": "    Campylobacterota (250)"
+    },
+    {
+      "code": "heo",
+      "name": "Helicobacter pylori 26695",
+      "phylum": "    Campylobacterota (250)"
+    },
+    {
+      "code": "mmy",
+      "name": "Mycoplasma mycoides subsp. mycoides SC PG1",
+      "phylum": "    Mycoplasmatota (233)"
+    },
+    {
+      "code": "mmym",
+      "name": "Mycoplasma mycoides subsp. mycoides SC Gladysdale",
+      "phylum": "    Mycoplasmatota (233)"
+    },
+    {
+      "code": "syn",
+      "name": "Synechocystis sp. PCC 6803",
+      "phylum": "    Cyanobacteriota (212)"
+    },
+    {
+      "code": "syz",
+      "name": "Synechocystis sp. PCC 6803",
+      "phylum": "    Cyanobacteriota (212)"
+    },
+    {
+      "code": "bbu",
+      "name": "Borreliella burgdorferi B31",
+      "phylum": "    Spirochaetota (138)"
+    },
+    {
+      "code": "bbz",
+      "name": "Borreliella burgdorferi ZS7",
+      "phylum": "    Spirochaetota (138)"
+    },
+    {
+      "code": "gsu",
+      "name": "Geobacter sulfurreducens PCA",
+      "phylum": "    Thermodesulfobacteriota (129)"
+    },
+    {
+      "code": "gsk",
+      "name": "Geobacter sulfurreducens KN400",
+      "phylum": "    Thermodesulfobacteriota (129)"
+    },
+    {
+      "code": "ctr",
+      "name": "Chlamydia trachomatis D/UW-3/CX",
+      "phylum": "    Chlamydiota (128)"
+    },
+    {
+      "code": "ctd",
+      "name": "Chlamydia trachomatis D-EC",
+      "phylum": "    Chlamydiota (128)"
+    },
+    {
+      "code": "fma",
+      "name": "Finegoldia magna",
+      "phylum": "    other Bacillota (125)"
+    },
+    {
+      "code": "apr",
+      "name": "Anaerococcus prevotii",
+      "phylum": "    other Bacillota (125)"
+    },
+    {
+      "code": "rba",
+      "name": "Rhodopirellula baltica",
+      "phylum": "    Planctomycetota (98)"
+    },
+    {
+      "code": "dra",
+      "name": "Deinococcus radiodurans",
+      "phylum": "    Deinococcota (44)"
+    },
+    {
+      "code": "ade",
+      "name": "Anaeromyxobacter dehalogenans 2CP-C",
+      "phylum": "    Myxococcota (42)"
+    },
+    {
+      "code": "ote",
+      "name": "Opitutus terrae",
+      "phylum": "    Verrucomicrobiota (40)"
+    },
+    {
+      "code": "tma",
+      "name": "Thermotoga maritima MSB8",
+      "phylum": "    Thermotogota (40)"
+    },
+    {
+      "code": "det",
+      "name": "Dehalococcoides mccartyi 195",
+      "phylum": "    Chloroflexota (39)"
+    },
+    {
+      "code": "fnu",
+      "name": "Fusobacterium nucleatum subsp. nucleatum ATCC 25586",
+      "phylum": "    Fusobacteriota (37)"
+    },
+    {
+      "code": "aba",
+      "name": "Candidatus Koribacter versatilis",
+      "phylum": "    Acidobacteriota (33)"
+    },
+    {
+      "code": "saal",
+      "name": "Candidatus Saccharimonas aalborgensis",
+      "phylum": "    Bacteria incertae sedis (33)"
+    },
+    {
+      "code": "bba",
+      "name": "Bdellovibrio bacteriovorus HD100",
+      "phylum": "    Bdellovibrionota (23)"
+    },
+    {
+      "code": "afr",
+      "name": "Acidithiobacillus ferrooxidans ATCC 23270",
+      "phylum": "    other Pseudomonadota (18)"
+    },
+    {
+      "code": "cte",
+      "name": "Chlorobaculum tepidum",
+      "phylum": "    Chlorobiota (17)"
+    },
+    {
+      "code": "tye",
+      "name": "Thermodesulfovibrio yellowstonii",
+      "phylum": "    Nitrospirota (17)"
+    },
+    {
+      "code": "aae",
+      "name": "Aquifex aeolicus",
+      "phylum": "    Aquificota (15)"
+    },
+    {
+      "code": "tai",
+      "name": "Thermanaerovibrio acidaminovorans",
+      "phylum": "    Synergistota (11)"
+    },
+    {
+      "code": "rmr",
+      "name": "Rhodothermus marinus DSM 4252",
+      "phylum": "    Rhodothermota (7)"
+    },
+    {
+      "code": "ddf",
+      "name": "Deferribacter desulfuricans",
+      "phylum": "    Deferribacterota (7)"
+    },
+    {
+      "code": "emi",
+      "name": "Elusimicrobium minutum",
+      "phylum": "    Elusimicrobiota (6)"
+    },
+    {
+      "code": "gau",
+      "name": "Gemmatimonas aurantiaca",
+      "phylum": "    Gemmatimonadota (6)"
+    },
+    {
+      "code": "sox",
+      "name": "Nanosynbacter lyticus",
+      "phylum": "    Minisyncoccota (5)"
+    },
+    {
+      "code": "lpro",
+      "name": "Lentisphaera profundi",
+      "phylum": "    Lentisphaerota (4)"
+    },
+    {
+      "code": "bsed",
+      "name": "Bradymonas sediminis",
+      "phylum": "    Deltaproteobacteria (4)"
+    },
+    {
+      "code": "ccz",
+      "name": "Chthonomonas calidirosea",
+      "phylum": "    Armatimonadota (4)"
+    },
+    {
+      "code": "nli",
+      "name": "Candidatus Nitronauta litoralis",
+      "phylum": "    Nitrospinota (3)"
+    },
+    {
+      "code": "alam",
+      "name": "Atribacter laminatus",
+      "phylum": "    Atribacterota (3)"
+    },
+    {
+      "code": "tro",
+      "name": "Thermomicrobium roseum",
+      "phylum": "    Thermomicrobiota (2)"
+    },
+    {
+      "code": "tnr",
+      "name": "Thermodesulfobium narugense",
+      "phylum": "    Thermodesulfobiota (2)"
+    },
+    {
+      "code": "vbl",
+      "name": "Kiritimatiella glycovorans",
+      "phylum": "    Kiritimatiellota (2)"
+    },
+    {
+      "code": "fsu",
+      "name": "Fibrobacter succinogenes",
+      "phylum": "    Fibrobacterota (2)"
+    },
+    {
+      "code": "ial",
+      "name": "Ignavibacterium album",
+      "phylum": "    Ignavibacteriota (2)"
+    },
+    {
+      "code": "dth",
+      "name": "Dictyoglomus thermophilum",
+      "phylum": "    Dictyoglomota (2)"
+    },
+    {
+      "code": "vai",
+      "name": "Candidatus Velamenicoccus archaeovorus",
+      "phylum": "    Omnitrophota (1)"
+    },
+    {
+      "code": "cprv",
+      "name": "Cyclonatronum proteinivorum",
+      "phylum": "    Balneolota (1)"
+    },
+    {
+      "code": "caci",
+      "name": "Candidatus Cloacimonas acidaminovorans",
+      "phylum": "    Cloacimonadota (1)"
+    },
+    {
+      "code": "fml",
+      "name": "Fidelibacter multiformis",
+      "phylum": "    Fidelibacterota (1)"
+    },
+    {
+      "code": "ttk",
+      "name": "Thermosulfidibacter takaii",
+      "phylum": "    Thermosulfidibacterota (1)"
+    },
+    {
+      "code": "cpo",
+      "name": "Coprothermobacter proteolyticus",
+      "phylum": "    Coprothermobacterota (1)"
+    },
+    {
+      "code": "cex",
+      "name": "Caldisericum exile",
+      "phylum": "    Caldisericota (1)"
+    },
+    {
+      "code": "din",
+      "name": "Desulfurispirillum indicum",
+      "phylum": "    Chrysiogenota (1)"
+    },
+    {
+      "code": "caby",
+      "name": "Caldithrix abyssi",
+      "phylum": "    Calditrichota (1)"
+    },
+    {
+      "code": "zth",
+      "name": "Zhurongbacter thermophilus",
+      "phylum": "    Zhurongbacterota (1)"
+    },
+    {
+      "code": "mbf",
+      "name": "Candidatus Melainabacteria bacterium MEL.A1",
+      "phylum": "    Melainabacteria (1)"
+    },
+    {
+      "code": "vab",
+      "name": "Vulcanimicrobium alpinum",
+      "phylum": "    Vulcanimicrobiota (1)"
+    },
+    {
+      "code": "baab",
+      "name": "Bacterium AB1",
+      "phylum": "    other Bacteria (1)"
+    }
+  ],
+  "archaea_panel": [
+    {
+      "code": "mja",
+      "name": "Methanocaldococcus jannaschii",
+      "phylum": "    Methanobacteriota (311)"
+    },
+    {
+      "code": "mfe",
+      "name": "Methanocaldococcus fervens",
+      "phylum": "    Methanobacteriota (311)"
+    },
+    {
+      "code": "ape",
+      "name": "Aeropyrum pernix",
+      "phylum": "    Thermoproteota (92)"
+    },
+    {
+      "code": "acj",
+      "name": "Aeropyrum camini",
+      "phylum": "    Thermoproteota (92)"
+    },
+    {
+      "code": "nmr",
+      "name": "Nitrosopumilus maritimus",
+      "phylum": "    Nitrososphaerota (27)"
+    },
+    {
+      "code": "nir",
+      "name": "Candidatus Nitrosopumilus sediminis",
+      "phylum": "    Nitrososphaerota (27)"
+    },
+    {
+      "code": "tac",
+      "name": "Thermoplasma acidophilum",
+      "phylum": "    Thermoplasmatota (15)"
+    },
+    {
+      "code": "marh",
+      "name": "Candidatus Mancarchaeum acidiphilum Mia14",
+      "phylum": "    Microcaldota (4)"
+    },
+    {
+      "code": "neq",
+      "name": "Nanoarchaeum equitans",
+      "phylum": "    Nanobdellota (3)"
+    },
+    {
+      "code": "ncon",
+      "name": "Candidatus Nanohalobium constans",
+      "phylum": "    Nanohalarchaeota (3)"
+    },
+    {
+      "code": "loki",
+      "name": "Candidatus Lokiarchaeum sp. GC14_75",
+      "phylum": "    Promethearchaeota (3)"
+    },
+    {
+      "code": "barc",
+      "name": "Candidatus Bathyarchaeota archaeon BA1",
+      "phylum": "    Bathyarchaeota (2)"
+    },
+    {
+      "code": "agw",
+      "name": "Archaeon GW2011_AR10",
+      "phylum": "    other Archaea (2)"
+    },
+    {
+      "code": "war",
+      "name": "Candidatus Woesearchaeota archaeon NC_groundwater_85_Ag_S-0.1um_31_13",
+      "phylum": "    Woesearchaeota (1)"
+    },
+    {
+      "code": "oyw",
+      "name": "Candidatus Odinarchaeum yellowstonii",
+      "phylum": "    Odinarchaeota (1)"
+    }
+  ],
+  "bacteria": {
+    "module_count": 199,
+    "pathway_count": 150
+  },
+  "archaea": {
+    "module_count": 66,
+    "pathway_count": 118
+  },
+  "prokaryote_union": {
+    "module_count": 211,
+    "pathway_count": 154
+  },
+  "module_exclude_keywords": [
+    "spliceosome",
+    "proteasome",
+    "lysosome",
+    "cell cycle",
+    "mitosis",
+    "meiosis",
+    "steroid hormone",
+    "insulin",
+    "glucagon signaling",
+    "RNA transport, eukaryotic",
+    "nucleotide excision repair, eukaryotic",
+    "homologous recombination, eukaryotic",
+    "mismatch repair, eukaryotic",
+    "Fanconi anemia",
+    "p53 signaling",
+    "Wnt signaling",
+    "Notch signaling",
+    "TGF-beta signaling",
+    "VEGF signaling",
+    "ErbB signaling",
+    "JAK-STAT signaling",
+    "chemokine signaling",
+    "complement and coagulation",
+    "Alzheimer disease",
+    "Parkinson disease",
+    "Huntington disease",
+    "amyotrophic lateral sclerosis",
+    "pathways of neurodegeneration",
+    "human ",
+    "coronavirus disease",
+    "influenza A",
+    "hepatitis ",
+    "measles",
+    "malaria"
+  ],
+  "pathway_exclude_keywords": [
+    "human ",
+    "Alzheimer",
+    "Parkinson",
+    "Huntington",
+    "amyotrophic lateral sclerosis",
+    "pathways of neurodegeneration",
+    "coronavirus",
+    "influenza A",
+    "hepatitis C",
+    "measles",
+    "malaria",
+    "cancer:",
+    "colorectal cancer",
+    "breast cancer",
+    "prostate cancer",
+    "melanoma",
+    "acute myeloid leukemia",
+    "chronic myeloid leukemia",
+    "renal cell carcinoma",
+    "pancreatic cancer",
+    "gastric cancer",
+    "hepatocellular carcinoma",
+    "non-small cell lung cancer",
+    "small cell lung cancer",
+    "thyroid cancer",
+    "endometrial cancer",
+    "basal cell carcinoma",
+    "viral carcinogenesis",
+    "chemical carcinogenesis",
+    "spliceosome",
+    "proteasome",
+    "lysosome",
+    "peroxisome"
+  ],
+  "pathway_excluded_ids": [
+    "ko01100",
+    "ko01110",
+    "ko01120"
+  ],
+  "pathway_excluded_prefixes": [
+    "ko041",
+    "ko042",
+    "ko043",
+    "ko045",
+    "ko046",
+    "ko047",
+    "ko048",
+    "ko049",
+    "ko05",
+    "ko053",
+    "ko054"
+  ],
+  "files": {
+    "bacteria_modules": "kegg_module_allowlist_bacteria_v2.0.tsv",
+    "archaea_modules": "kegg_module_allowlist_archaea_v2.0.tsv",
+    "bacteria_pathways_txt": "prokaryote_ko_pathway_allowlist_bacteria_v2.0.txt",
+    "bacteria_pathways_tsv": "prokaryote_ko_pathway_allowlist_bacteria_v2.0.tsv",
+    "archaea_pathways_txt": "prokaryote_ko_pathway_allowlist_archaea_v2.0.txt",
+    "archaea_pathways_tsv": "prokaryote_ko_pathway_allowlist_archaea_v2.0.tsv",
+    "prokaryote_modules": "kegg_module_allowlist_prokaryote_v2.0.tsv",
+    "prokaryote_pathways_txt": "prokaryote_ko_pathway_allowlist_prokaryote_v2.0.txt",
+    "prokaryote_pathways_tsv": "prokaryote_ko_pathway_allowlist_prokaryote_v2.0.tsv"
+  }
+}

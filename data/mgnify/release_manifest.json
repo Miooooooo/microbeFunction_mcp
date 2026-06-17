@@ -1,0 +1,16 @@
+[
+  {
+    "manifest_id": "human-gut:v2.0",
+    "biome": "human-gut",
+    "release": "v2.0",
+    "source_base": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/",
+    "release_url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/v2.0/",
+    "metadata_file_url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/v2.0/genomes-all_metadata.tsv",
+    "metadata_local_path": "E:/LLM_learning/Project/Pathway/genomes-all_metadata.tsv",
+    "metadata_fetched_at": "2026-05-25T08:37:00Z",
+    "is_latest": false,
+    "available_artifacts": [
+      "genomes_all_metadata"
+    ]
+  }
+]

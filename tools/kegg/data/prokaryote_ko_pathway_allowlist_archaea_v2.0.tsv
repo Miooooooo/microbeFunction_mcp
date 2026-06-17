@@ -1,0 +1,119 @@
+pathway_id	pathway_name	source_org_count	source_orgs
+ko00010	Glycolysis / Gluconeogenesis - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00020	Citrate cycle (TCA cycle) - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko00030	Pentose phosphate pathway - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00040	Pentose and glucuronate interconversions - Methanocaldococcus jannaschii	6	acj,agw,ape,mfe,mja,tac
+ko00051	Fructose and mannose metabolism - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00052	Galactose metabolism - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00053	Ascorbate and aldarate metabolism - Methanocaldococcus jannaschii	1	mja
+ko00061	Fatty acid biosynthesis - Aeropyrum pernix	6	acj,ape,nir,nmr,tac,war
+ko00071	Fatty acid degradation - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00130	Ubiquinone and other terpenoid-quinone biosynthesis - Aeropyrum pernix	5	acj,ape,nir,nmr,tac
+ko00190	Oxidative phosphorylation - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00220	Arginine biosynthesis - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00230	Purine metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00240	Pyrimidine metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00250	Alanine, aspartate and glutamate metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00260	Glycine, serine and threonine metabolism - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00261	Monobactam biosynthesis - Methanocaldococcus jannaschii	7	acj,ape,mfe,mja,nir,nmr,tac
+ko00270	Cysteine and methionine metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac
+ko00280	Valine, leucine and isoleucine degradation - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00290	Valine, leucine and isoleucine biosynthesis - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00300	Lysine biosynthesis - Methanocaldococcus jannaschii	7	acj,ape,mfe,mja,nir,nmr,tac
+ko00310	Lysine degradation - Methanocaldococcus jannaschii	7	acj,ape,mfe,mja,nir,nmr,tac
+ko00330	Arginine and proline metabolism - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00340	Histidine metabolism - Methanocaldococcus jannaschii	5	mfe,mja,nir,nmr,tac
+ko00350	Tyrosine metabolism - Methanocaldococcus jannaschii	6	acj,ape,mfe,mja,nir,nmr
+ko00360	Phenylalanine metabolism - Methanocaldococcus jannaschii	6	ape,mfe,mja,nir,nmr,tac
+ko00361	Chlorocyclohexane and chlorobenzene degradation - Thermoplasma acidophilum	1	tac
+ko00362	Benzoate degradation - Methanocaldococcus fervens	6	acj,ape,mfe,nir,nmr,tac
+ko00364	Fluorobenzoate degradation - Thermoplasma acidophilum	1	tac
+ko00380	Tryptophan metabolism - Methanocaldococcus jannaschii	5	acj,ape,mfe,mja,tac
+ko00400	Phenylalanine, tyrosine and tryptophan biosynthesis - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00401	Novobiocin biosynthesis - Methanocaldococcus jannaschii	6	acj,ape,mfe,mja,nir,nmr
+ko00410	beta-Alanine metabolism - Methanocaldococcus jannaschii	7	acj,agw,ape,mfe,mja,nir,nmr
+ko00430	Taurine and hypotaurine metabolism - Nitrosopumilus maritimus	3	nir,nmr,tac
+ko00440	Phosphonate and phosphinate metabolism - Nitrosopumilus maritimus	1	nmr
+ko00450	Selenocompound metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00460	Cyanoamino acid metabolism - Aeropyrum pernix	6	acj,agw,ape,nir,nmr,tac
+ko00470	D-Amino acid metabolism - Methanocaldococcus jannaschii	5	mfe,mja,nir,nmr,tac
+ko00480	Glutathione metabolism - Methanocaldococcus jannaschii	7	acj,ape,mfe,mja,nir,nmr,tac
+ko00500	Starch and sucrose metabolism - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00511	Other glycan degradation - Thermoplasma acidophilum	1	tac
+ko00520	Amino sugar and nucleotide sugar metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac
+ko00521	Streptomycin biosynthesis - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00523	Polyketide sugar unit biosynthesis - Aeropyrum pernix	4	agw,ape,nir,nmr
+ko00525	Acarbose and validamycin biosynthesis - Aeropyrum pernix	4	agw,ape,nir,nmr
+ko00540	Lipopolysaccharide biosynthesis - Methanocaldococcus fervens	1	mfe
+ko00541	Biosynthesis of various nucleotide sugars - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko00543	Exopolysaccharide biosynthesis - Archaeon GW2011_AR10	1	agw
+ko00561	Glycerolipid metabolism - Aeropyrum pernix	4	acj,ape,nir,tac
+ko00562	Inositol phosphate metabolism - Methanocaldococcus jannaschii	7	acj,agw,ape,mfe,mja,nir,nmr
+ko00564	Glycerophospholipid metabolism - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00566	Sulfoquinovose metabolism - Candidatus Nitrosopumilus sediminis	2	nir,tac
+ko00592	alpha-Linolenic acid metabolism - Aeropyrum pernix	3	acj,ape,tac
+ko00600	Sphingolipid metabolism - Aeropyrum pernix	2	acj,ape
+ko00620	Pyruvate metabolism - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko00621	Dioxin degradation - Nitrosopumilus maritimus	1	nmr
+ko00622	Xylene degradation - Aeropyrum pernix	3	acj,ape,nmr
+ko00623	Toluene degradation - Thermoplasma acidophilum	1	tac
+ko00625	Chloroalkane and chloroalkene degradation - Nitrosopumilus maritimus	2	nir,nmr
+ko00626	Naphthalene degradation - Nitrosopumilus maritimus	2	nir,nmr
+ko00627	Aminobenzoate degradation - Methanocaldococcus fervens	6	acj,ape,mfe,nir,nmr,tac
+ko00630	Glyoxylate and dicarboxylate metabolism - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko00633	Nitrotoluene degradation - Methanocaldococcus jannaschii	2	mfe,mja
+ko00640	Propanoate metabolism - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko00643	Styrene degradation - Aeropyrum pernix	2	acj,ape
+ko00650	Butanoate metabolism - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00660	C5-Branched dibasic acid metabolism - Methanocaldococcus jannaschii	7	acj,ape,mfe,mja,nir,nmr,tac
+ko00670	One carbon pool by folate - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00680	Methane metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00710	Carbon fixation by Calvin cycle - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00720	Other carbon fixation pathways - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko00730	Thiamine metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00740	Riboflavin metabolism - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00750	Vitamin B6 metabolism - Methanocaldococcus jannaschii	7	acj,ape,mfe,mja,nir,nmr,tac
+ko00760	Nicotinate and nicotinamide metabolism - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00770	Pantothenate and CoA biosynthesis - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00780	Biotin metabolism - Methanocaldococcus jannaschii	7	acj,ape,mfe,mja,nir,nmr,tac
+ko00785	Lipoic acid metabolism - Methanocaldococcus jannaschii	7	acj,agw,ape,mfe,mja,tac,war
+ko00790	Folate biosynthesis - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00860	Porphyrin metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00900	Terpenoid backbone biosynthesis - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko00907	Pinene, camphor and geraniol degradation - Aeropyrum pernix	3	acj,ape,tac
+ko00910	Nitrogen metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko00920	Sulfur metabolism - Methanocaldococcus jannaschii	7	acj,ape,mfe,mja,nir,nmr,tac
+ko00970	Aminoacyl-tRNA biosynthesis - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko00984	Steroid degradation - Thermoplasma acidophilum	1	tac
+ko00999	Biosynthesis of various plant secondary metabolites - Methanocaldococcus jannaschii	7	acj,agw,ape,mfe,mja,nir,nmr
+ko01200	Carbon metabolism - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko01210	2-Oxocarboxylic acid metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac
+ko01212	Fatty acid metabolism - Aeropyrum pernix	5	acj,ape,nir,nmr,tac
+ko01220	Degradation of aromatic compounds - Methanocaldococcus fervens	5	acj,ape,mfe,nir,nmr
+ko01230	Biosynthesis of amino acids - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko01232	Nucleotide metabolism - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko01240	Biosynthesis of cofactors - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko01250	Biosynthesis of nucleotide sugars - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko01310	Nitrogen cycle - Aeropyrum pernix	4	acj,ape,nir,nmr
+ko01320	Sulfur cycle - Aeropyrum pernix	5	acj,ape,nir,nmr,tac
+ko01502	Vancomycin resistance - Nitrosopumilus maritimus	2	nir,nmr
+ko01503	Cationic antimicrobial peptide (CAMP) resistance - Archaeon GW2011_AR10	1	agw
+ko02010	ABC transporters - Methanocaldococcus jannaschii	8	acj,agw,ape,mfe,mja,nir,nmr,tac
+ko02020	Two-component system - Methanocaldococcus jannaschii	10	acj,agw,ape,mfe,mja,nir,nmr,oyw,tac,war
+ko02024	Quorum sensing - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko02030	Bacterial chemotaxis - Methanocaldococcus fervens	1	mfe
+ko03008	Ribosome biogenesis in eukaryotes - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03010	Ribosome - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03013	Nucleocytoplasmic transport - Methanocaldococcus jannaschii	6	acj,agw,ape,mfe,mja,tac
+ko03015	mRNA surveillance pathway - Methanocaldococcus jannaschii	7	acj,agw,ape,mfe,mja,nmr,tac
+ko03018	RNA degradation - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03020	RNA polymerase - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03022	Basal transcription factors - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03030	DNA replication - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03060	Protein export - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03070	Bacterial secretion system - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03410	Base excision repair - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03420	Nucleotide excision repair - Methanocaldococcus jannaschii	8	acj,ape,mfe,mja,nir,nmr,tac,war
+ko03430	Mismatch repair - Methanocaldococcus jannaschii	9	acj,agw,ape,mfe,mja,nir,nmr,tac,war
+ko03440	Homologous recombination - Methanocaldococcus jannaschii	5	mfe,mja,nir,nmr,tac
+ko03460	Fanconi anemia pathway - Nitrosopumilus maritimus	2	nir,nmr

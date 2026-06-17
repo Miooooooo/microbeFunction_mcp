@@ -1,0 +1,29 @@
+[project]
+name = "microbefunction-mcp"
+version = "1.0.0"
+description = "Microbe function analysis MCP toolkit: KEGG module completeness + MGnify species index"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.9.3",
+    "requests>=2.32.0",
+    "networkx>=3.3",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.34.0",
+    "toml>=0.10.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+filterwarnings = ["ignore::UserWarning"]
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+default = true
