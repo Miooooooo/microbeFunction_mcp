@@ -2,8 +2,11 @@
 
 微生物功能分析 MCP 工具包
 
-支持[mgnify_genomes](https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/)数据库所有菌种(包含人肠道，口腔，阴道；小鼠肠道；海洋淤泥；土壤；根际；牛羊瘤胃等)的基因组信息下载和查询
-支持KEGG所有数据库查询和功能注释，代谢模块完整度分析，构建细菌和古菌KEGG pathway/module的白名单及只在真核中出现的terms的黑名单及关键词
+支持[mgnify_genomes](https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/)数据库所有菌种(包含人肠道，口腔，阴道；小鼠肠道；海洋淤泥；土壤；根际；牛羊瘤胃等)的基因组信息下载和查询。
+
+支持KEGG所有数据库查询和功能注释，代谢模块完整度分析构建细菌和古菌KEGG pathway/module的白名单和黑名单(只在真核中出现)及关键词黑名单用于进一步过滤在原核生物中不可能出现的功能模块。
+
+支持COG数据库中的功能查询。
 
 ## 概览
 
@@ -56,8 +59,8 @@ uv run -m tools.mgnify.deploy
 ## 典型工作流
 
 ```
-search_species (mgnify)  →  fetch_annotations (mgnify)  →  kegg_module_completeness (kegg)
-     找到物种 MAG              下载 eggNOG/GFF 注释            分析代谢模块完整度
+search_species (mgnify)  →  fetch_annotations (mgnify)  →  kegg_module_completeness (kegg)   →   functional profiling of bacterial genomes
+     找到物种 MAG              下载 eggNOG/GFF 注释            分析代谢模块完整度                         菌种基因组的功能画像
 ```
 
 ## 使用示例：生成 *Clostridium baratii* 功能画像
@@ -162,41 +165,6 @@ uv run -m tools.mgnify fetch --species-rep MGYG000000238 --biome human-gut --rol
 
 可通过环境变量 `MGNIFY_DATA_DIR` 覆盖 MGnify 索引目录。
 
-## 项目结构
-
-```
-microbeFunction_mcp/
-├── tools/
-│   ├── kegg/              # KEGG MCP
-│   │   ├── server.py      # FastMCP server
-│   │   ├── kegg_api.py    # KEGG REST API 封装
-│   │   ├── module_completeness.py
-│   │   ├── cog_store.py
-│   │   ├── ko_input.py
-│   │   ├── allowlist_sources.py
-│   │   ├── cli.py
-│   │   ├── deploy.py      # 单独部署入口
-│   │   └── data/          # allowlist 等数据文件
-│   └── mgnify/            # MGnify MCP
-│       ├── server.py
-│       ├── fetch.py
-│       ├── index_store.py
-│       ├── cli.py
-│       ├── deploy.py
-│       ├── download_species_annotations.py
-│       ├── download_human_gut_metadata.py
-│       ├── list_mgnify_folders.py
-│       └── build_mgnify_index.py
-├── deploy/
-│   ├── web.py             # 统一 FastAPI 入口
-│   └── config.py          # 配置加载
-├── tests/
-├── data/
-│   └── mgnify/            # 共享数据
-├── pyproject.toml
-├── default.conf.toml
-└── .gitignore
-```
 
 ## Cursor / Claude Desktop 配置
 
